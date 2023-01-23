@@ -1,0 +1,30 @@
+* {
+    margin: auto;
+}
+
+body {
+    margin-top: 5rem;
+    background-image: url("/snow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.counter-container {
+    margin-right: 1rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
