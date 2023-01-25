@@ -14,10 +14,10 @@ function countdown() {
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const seconds = totalSeconds % 60;
 
-    container_days.innerHTML = days;
-    container_hours.innerHTML = hours;
-    container_minutes.innerHTML = minutes;
-    container_seconds.innerHTML = seconds;
+    container_days.innerHTML = `${days}`;
+    container_hours.innerHTML = `${hours}`;
+    container_minutes.innerHTML = `${minutes}`;
+    container_seconds.innerHTML = `${seconds}`;
 }
 
 setInterval(countdown, 1000)
